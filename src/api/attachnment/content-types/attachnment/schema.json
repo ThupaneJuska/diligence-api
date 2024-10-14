@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attachnments",
+  "info": {
+    "singularName": "attachnment",
+    "pluralName": "attachnments",
+    "displayName": "Attachnment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  }
+}
